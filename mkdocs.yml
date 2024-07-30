@@ -1,0 +1,9 @@
+site_name: "Users Service"
+site_description: "A microservice to manage users that have access to various StaffingHQ applications"
+
+nav:
+  - Introduction: index.md
+  - Help: help.md
+
+plugins:
+  - techdocs-core
