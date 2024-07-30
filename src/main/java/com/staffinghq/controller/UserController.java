@@ -5,8 +5,7 @@ import com.staffinghq.service.UserService;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -25,7 +24,7 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<User> getById(Long id) {
+    public ResponseEntity<User> getById(@PathVariable Long id) {
         return ResponseEntity.ok(this.userService.getById(id));
     }
 }
