@@ -8,6 +8,7 @@ metadata:
     github.com/project-slug: Staffing-HQ/users-srv
     backstage.io/techdocs-ref: dir:.
     gocd.org/pipelines: backstage,backstage-pr,backstage-builder
+    sonarqube.org/project-key: Staffing-HQ_users-srv
   tags:
     - spring-boot
     - java
