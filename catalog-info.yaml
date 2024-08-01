@@ -36,4 +36,4 @@ spec:
   definition:
     $text: ./openapi.yaml
   dependsOn:
-    - 'api:default/internships-srv-api,component:default/internships-portal'
+    - 'api:default/internships-srv-api'
