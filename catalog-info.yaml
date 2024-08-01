@@ -20,7 +20,8 @@ spec:
   system: users-system
   providesApis:
     - users-srv-api
-  dependsOn: ['resource:users-db']
+  dependsOn: 
+    - 'resource:users-db'
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -35,4 +36,3 @@ spec:
   system: users-system
   definition:
     $text: ./openapi.yaml
-  dependsOn: ['api:default/internships-srv-api']
