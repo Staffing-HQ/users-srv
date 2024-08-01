@@ -21,7 +21,7 @@ spec:
   providesApis:
     - users-srv-api
   dependsOn: 
-    - 'resource:users-db,component:default/employees-srv'
+    - 'resource:users-db'
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
