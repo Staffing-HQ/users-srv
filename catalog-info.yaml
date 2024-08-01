@@ -35,5 +35,4 @@ spec:
   system: users-system
   definition:
     $text: ./openapi.yaml
-  dependsOn:
-    - 'api:default/internships-srv-api'
+  dependsOn: ['api:default/internships-srv-api']
