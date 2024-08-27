@@ -9,6 +9,11 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     gocd.org/pipelines: backstage,backstage-pr,backstage-builder
     sonarqube.org/project-key: Staffing-HQ_users-srv
+    grafana/overview-dashboard: 'https://localhost:3333/d/vJAZ9jwWk/users-service-dashboard'
+    grafana/dashboard-selector: 'users-srv'
+    backstage.io/kubernetes-id: 'users-srv'
+    backstage.io/kubernetes-namespace: default
+    backstage.io/kubernetes-label-selector: 'app=users-srv'
   tags:
     - spring-boot
     - java
