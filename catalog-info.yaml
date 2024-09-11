@@ -15,6 +15,7 @@ metadata:
     backstage.io/kubernetes-namespace: default
     backstage.io/kubernetes-label-selector: 'app=users-srv'
     snow/project-id: 'users-service'
+    jira/project-key: 'BACK'
   tags:
     - spring-boot
     - java
